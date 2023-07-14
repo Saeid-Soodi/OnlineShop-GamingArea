@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/main.css">
+   <link rel="stylesheet" href="css/flexboxgrid.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/cecd0f7e84.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+</head>
+<body>
+<header>
+    <nav>
+        <div class="nav-right">
+            <a href=""><i class="fa-solid fa-user"></i></a>
+            <a href=""><i class="fa-solid fa-house"></i></a> 
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+           <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+         
+        </div>
+
+        <div class="nav-left">
+            <div class="register-login-btn">
+                <i class="fa-regular fa-user"></i>
+                <a href="panel.html">ثبت نام / ورود</a>
+            </div> 
+        </div>
+      
+
+    </nav>
+    <section class="slider">
+        <div class="slides">
+            <div class="item active" id="s1">
+                <img src="/images/s1.webp" alt="s1">
+            </div>
+            <div class="item" id="s2">
+                <img src="/images/s2.webp" alt="s2">
+            </div>
+            <div class="item" id="s3">
+                <img src="images/s3.webp" alt="s3">
+                
+            </div>
+            <div class="item" id="s4">
+                <img src="/images/s4.webp" alt="s4">
+                <span>منتظـر مـا باشــیـد </span> 
+            </div>
+        </div>
+        <div class="buttons">
+            <i onclick="SetSlide('s1',1)" class="fa-solid fa-circle"></i>
+            <i onclick="SetSlide('s2',2)" class="fa-solid fa-circle"></i>
+            <i onclick="SetSlide('s3',3)" class="fa-solid fa-circle"></i>
+            <i onclick="SetSlide('s4',4)" class="fa-solid fa-circle"></i>
+        </div>
+    </section>
+</header>
+<main>
+    <div class="name">
+        <img src="images/logo.png" alt="Gaming Area logo">
+        <h1>فروشگاه Gaming Area</h1>
+    </div>    
+    <section class="product-sec-new">
+        <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping">
+                <div class="img-sec">
+                    <img src="images/p1.webp" alt="Pudge">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                    <span>Baby Pudge</span>
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">800 هزار تومان</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="">خرید</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping">
+                <div class="img-sec">
+                    <img src="images/p2.webp" alt="p2">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                   <span> Silencer Immortals</span>
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">800 هزار تومان</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a  class="b-text"href="">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="">خرید</a>
+                            <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping">
+                <div class="img-sec">
+                    <img src="images/p3.webp" alt="p3">
+                    <span class="hot-offer">پیشنهاد ویژه</span>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="title">
+                   <span> Slark Immortals</span>
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">1 میلیون تومان</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="">خرید</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="shoping">
+                <div class="img-sec">
+                    <img src="images/p4.webp" alt="p4">
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+        
+                    </div>
+                </div>
+                <div class="title">
+                   <span> Tiny Collector Cache 2 2020 </span>
+                </div>
+                <div class="buttons">
+                    <div class="right">
+                        <span class="price">500 هزار تومان</span>
+                    </div>
+                    <div class="left">
+                        <div class="extend-btn">
+                            <a class="b-text" href="">علاقه</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                        </div>
+                        <div class="extend-btn">
+                            <a class="b-text" href="">خرید</a>
+                            <a class="b-icon" href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>  
+        </div>
+    </section>
+    <section class="supper-offer">
+        <div class="row">
+            <div class="col-lg-9">
+                    <div class="supper-offer-box">
+                        <span class="Offer-title">پیشنهاد شگفت انگیز</span>
+                        <div class="body">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="img-container">
+                                        <img src="images/tf2.png" alt="Mann Co Supply Crate key">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="specification">
+                                        <div class="price-row">
+                                            <div class="price">99 هزار تومان</div>
+                                            <div class="off">10% تخفیف</div>
+                                        </div>
+                                            <div class="title">کلید TF2 ، برای شارژ حساب شما</div>
+                                            <div class="counter-down">
+                                                <span id="sec">40</span>:
+                                                <span id="min">26</span>:
+                                                <span id="hour">19</span>
+                                            </div>
+                                            <div class="remaining-time">زمان باقی مانده تا پایان این تخفیف</div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="banner">
+                    <img src="images/steamWallet.webp" alt="">
+                    <span>گیفت کارت استیم</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="dragable-list">
+        <div class="title1">
+            <span >بازی ها</span>
+        </div>
+            <div id="owl-product" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/aWayOut.jpg" alt="p1">
+                           
+                        </div>
+                        <div class="title">
+                           <span> A Way Out</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">189هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/Battle-field-v.webp" alt="Battle-field-v">
+                        </div>
+                        <div class="title">
+                           <span> Battle Field V</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">  یک میلیون و صد هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/Call-of-duty WW2.webp" alt="Call-of-duty">
+                        </div>
+                        <div class="title">
+                           <span> Call Of Duty WW2</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">245 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">fav</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">buy</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/Cyber.jpg" alt="CyberPunk">
+                        </div>
+                        <div class="title">
+                           <span> CyberPunk</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">980 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/RedDead2.webp" alt="RedDead2">
+                        </div>
+                        <div class="title">
+                           <span>Red Dead Redemtion 2</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">980 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/nfs remstared.jpg" alt="nfs">
+                            
+                        </div>
+                        <div class="title">
+                           <span>Need For Speed Remstared</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">250 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/Forza5.webp" alt="Forza5">
+                           
+                        </div>
+                        <div class="title">
+                           <span> Forza Horizen 5</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">2400 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/GTAV.webp" alt="GTA-V">
+                        
+                        </div>
+                        <div class="title">
+                           <span> Grand Theft Auto V</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">750 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/Hitman-Absoultion.jpg" alt="Hitman-Absoultion">
+                            
+                        </div>
+                        <div class="title">
+                           <span> Hitman Absoultion</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">120 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/Sleeping-dogs.jpeg" alt="Sleeping Dogs">
+                        
+                        </div>
+                        <div class="title">
+                           <span>Sleeping Dogs</span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">790 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="shoping">
+                        <div class="img-sec">
+                            <img src="images/Games/R6.webp" alt="rainbow six siege">
+                           
+                        </div>
+                        <div class="title">
+                           <span> Rainbow Six Siege </span>
+                        </div>
+                        <div class="buttons">
+                            <div class="right">
+                                <span class="price">420 هزار تومان</span>
+                            </div>
+                            <div class="left">
+                                <div class="extend-btn">
+                                    <a  class="b-text"href="">علاقه</a>
+                                    <a class="b-icon" href=""><i class="fa-solid fa-heart"></i></a>
+                                </div>
+                                <div class="extend-btn">
+                                    <a class="b-text" href="">خرید</a>
+                                    <a  class="b-icon"href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+      
+
+
+            </div>
+    </section>
+</main>
+<footer>
+   
+    <div class="row">
+        <div class="col-lg-8">
+                <div class="right">
+                    <div class="title">
+                            درباره ما
+                    </div>
+                    <div class="description">Gaming Area که به فارسی منطقه بازی معنا می شود ، حاصل استارت آپی در سال 98 است که در ابتدا در زمینه بازی موبایلی پابجی موبایل فعالیت داشت و به مرور زمان روی به محصولات دیگر آورد ، امید است که  به یاری خداوند و همراهان گیمینگ اریا ، هرروز پیشرفته تر از دیروز خود باشیم</div>
+
+                </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="left">
+                <div class="title">
+                    مارا در شبکه های اجتماعی دنبال کنید:
+                </div>
+                <div class="social-icons">
+                    <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">کلیه حقوق محفوظ می باشد 2023  © طراحی شده توسط سعید سودی </div>
+
+</footer>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.min.js" 
+integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" 
+crossorigin="anonymous">
+</script>
+<script src="js/jquery.js"></script>
+<script src="js/owl.carousel.min.js"></script>  
+</body>
+</html>
